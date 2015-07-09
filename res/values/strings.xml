@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <string name="app_name">Trophy Case</string>
+    <string name="ocn_host">http://ocntest.avai.com/api/</string>
+    <string name="uri_register">register/</string>
+    <string name="uri_fb">facebook/</string>
+    <string name="uri_login_end">/login</string>
+    <string name="uri_requesttoken">oauth/requesttoken</string>
+    <string name="ocn_app_id">b6a5ccee-5d36-0796-ee5a-9d336962c534</string>
+    <string name="app_id"> 272335939564519</string>
+ <!-- facebook -->
+    <string name="invalid_email">Please enter a valid email.</string>
+    <string name="invalid_password">Password must be 8 or more characters including at least one uppercase character.</string>
+    <string name="logging_in_progress_text">Logging in&#8230;</string>
+    <string name="login_problem_message">User name or password is incorrect, please try again.</string>
+    <string name="requesting_password_message">Requesting Password&#8230;</string>
+    <string name="unexpected_problem_message">There was an unexpected problem. Please try again later.</string>
+    <string name="password_reset_message">An email has been sent to %1$s with instructions on how to reset your password.</string>
+    <string name="already">Already have an account? Tap here to login!</string>
+    <string name="once_tap">One tap signup process, saves time !</string>
+    <string name="why_register">Why Register? What are the benefits?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="back">Back</string>
+    <string name="login">Log In</string>
+    <string name="create_account">Create Account</string>
+    <string name="uname">Username</string>
+    <string name="pswd">Password</string>
+    <string name="repswd">Retype Password</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="zipcode">Zip Code</string>
+    <string name="terms_and_policy">By tapping "Sign Up" above,you are agreeing to the <u>Terms of Service</u> and <u>Privacy Policy</u>.</string>
+    <string name="hintRequired">required</string>
+    <string name="hintPassword">8 characters, 1 uppercase</string>
+    <string name="register_btn">Register</string>
+    <string name="register_text"><li>Join a community of users with like-minded interests</li>\n\n<li>Its FREE</li>\n<li>Share trophies and trade tips</li>\n<li>Earn Points redeemable for prizes and others special offers.</li></string>
+    <string name="terms_and_policy_login">By tapping <b>"Login"</b> above,you are agreeing to the <u>Terms of Service</u> and <u>Privacy Policy</u>.</string>
+    <string name="hey_there">Hey there!</string>
+    <string name="why_register_header">Why Register</string>
+    <string name="send">Send</string>
+    <string name="email">Your Email</string>
+    <string name="notification">An email with additional instruction will be sent</string>
+    <string name="hintyoudomain">you@domain.com</string>
+    <string name="pswdheader">Password</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ocn_login_view">OcnLoginView</string>
+    <string name="title_activity_ocn_registration_view">OcnRegistrationView</string>
+    <string name="title_activity_ocn_camera_view">OcnCameraView</string>
+    <string name="title_activity_ocn_why_register_view">OcnWhyRegister</string>
+    <string name="title_activity_ocn_select_category_view">OcnSelectCategoryView</string>
+    <string name="title_activity_ocn_tab_view">OcnTabView</string>
+    <string name="title_activity_ocn_main_view">OcnMainView</string>
+    <string name="title_activity_ocn_my_feed_view">OcnMyFeedView</string>
+    <string name="title_activity_ocn_trophy_case">OcnTrophyCase</string>
+    <string name="screenName">Screen Name</string>
+    <string name="email">Email Address</string>
+    <string name="dob">Date of Birth</string>
+    <string name="matchPassword">Password dont match</string>
+    <string name="birthdate_invalid">Calendar has not been set.</string>
+    <string name="username_too_short">Username is too short! Choose a name with more than 6 character.</string>
+    <string name="registration_error">Registration failed</string>
+    <string name="register_success">Registration Successful</string>
+    <string name="next">Next</string>
+    <string name="unable_to_save_picture_msg">Unable to save picture to SD Card. Make sure SD card is mounted correctly.</string>
+    <string name="take_a_peek">COME ON IN AND TAKE A PEEK!</string>
+    <string name="trophy_case">Trophy Case</string>
+    <string name="select_category">Select Category</string>
+    <string name="needAnAccount">Need an Account? It\'s Free!Tap here. </string>
+
+    <color name="orange">#FF4500</color>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="options">Options</string>
+
+    <string name="delete">Delete</string>
+
+    <string name="email_this">Email This</string>
+
+    <string name="sms_this">SMS Text this</string>
+
+    <string name="post_to_trophy_case">Post to Trophy Case Challenge</string>
+
+    <string name="share_photo">Share photo</string>
+
+    <string name="cancel">Cancel</string>
+
+</resources>

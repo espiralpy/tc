@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+	
+		<!-- the top navigation section starts here -->
+		<!-- Top navigation Button end here -->
+			
+		<!-- Add the linear layout code here to manage the login and password  -->
+
+		<TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+			android:layout_marginTop="30dip"
+			android:layout_marginLeft="10dip"
+        	android:layout_marginRight="10dip"
+	   		android:background="@drawable/backgnd_rounded"
+>
+        	<TableRow android:padding="10dp">
+
+        		<TextView
+        		    style="@style/LabelText"
+        		    android:layout_width="150dp"
+        		    android:layout_height="wrap_content"
+        		    android:paddingLeft="2dp"
+        		    android:text="@string/email" />
+
+        		<EditText
+        		    android:id="@+id/emailAddressET"
+        		    android:layout_width="fill_parent"
+        		    android:layout_height="wrap_content"
+        		    android:layout_weight="1"
+        		    android:background="@null"
+        		    android:hint="@string/hintRequired"
+        		    android:inputType="textEmailAddress" />
+
+			</TableRow>   
+
+         <TableRow android:layout_height="1dp" >
+
+			<View
+				android:layout_width="fill_parent"
+		        android:layout_height="1px"
+		        android:background="#FF909090" 
+		        android:layout_weight="1"
+		    />
+	      </TableRow>
+
+		<TableRow android:padding="10dp" >
+
+			<TextView
+			    style="@style/LabelText"
+       		    android:layout_height="wrap_content"
+       		    android:paddingLeft="2dp"
+			    android:text="@string/firstname" />
+
+			<EditText
+			    android:id="@+id/fnameET"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:background="@null"
+			    android:hint="@string/hintRequired"
+			    android:inputType="text"
+			    android:paddingLeft="0dp" >
+
+			    <requestFocus />
+			</EditText>
+
+	    </TableRow>
+	    		<TableRow android:layout_height="1dp" >
+				<View
+					android:layout_width="fill_parent"
+			        android:layout_height="1px"
+			        android:background="#FF909090" 
+			        android:layout_weight="1"
+			    />
+		</TableRow>
+				<TableRow android:padding="10dp" >
+
+					<TextView
+					    style="@style/LabelText"
+	        		    android:layout_height="wrap_content"
+	        		    android:paddingLeft="2dp"
+					    android:text="@string/lastname" />
+
+					<EditText
+					    android:id="@+id/lastNameET"
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_weight="1"
+					    android:background="@null"
+					    android:hint="@string/hintRequired"
+					    android:inputType="text" />
+
+		</TableRow>
+		<TableRow android:layout_height="1dp" >
+				<View
+				android:layout_width="fill_parent"
+		        android:layout_height="1px"
+		        android:background="#FF909090" 
+		        android:layout_weight="1"/>
+		        </TableRow>
+
+			<TableRow android:padding="10dp" >
+
+				<TextView
+				    style="@style/LabelText"
+				    android:layout_height="wrap_content"
+				    android:paddingLeft="2dp"
+				    android:text="@string/dob" />
+
+				<ImageButton
+				    android:id="@+id/dateOfbirthbtn"
+				    android:layout_width="fill_parent"
+				    android:layout_height="30dp"
+				    android:src="@drawable/ic_date_picker" />
+
+			</TableRow>
+		
+		</TableLayout>
+		<TableLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginTop="30dip"
+			android:layout_marginLeft="10dip"
+	        android:layout_marginRight="10dip"
+		   	android:background="@drawable/backgnd_rounded"
+            android:weightSum="1">
+       	
+       	<TableRow android:padding="10dp">
+
+       		<TextView
+       		    style="@style/LabelText"
+       		    android:layout_width="150dp"
+       		    android:layout_height="wrap_content"
+       		    android:paddingLeft="2dp"
+       		    android:text="@string/screenName" />
+
+       	    <EditText
+       	        android:id="@+id/screenNameET"
+       	        android:layout_height="wrap_content"
+       	        android:background="@null"
+       	        android:hint="@string/hintRequired"
+       	        android:inputType="text"/>
+       	</TableRow>
+  
+		<TableRow android:layout_height="1dp" >
+			<View
+			android:layout_width="fill_parent"
+	        android:layout_height="1px"
+	        android:background="#FF909090" 
+	        android:layout_weight="1"/>
+	   	 </TableRow>
+
+	   	 <TableRow android:padding="10dp">
+
+	   	     <TextView
+	   	         style="@style/LabelText"
+	   	         android:layout_width="wrap_content"
+	   	         android:layout_height="wrap_content"
+	   	         android:paddingLeft="2dp"
+	   	         android:text="@string/pswd" />
+
+	   	     <EditText
+	   	         android:id="@+id/passWordET"
+	   	         android:layout_height="wrap_content"
+	   	         android:background="@null"
+	   	         android:hint="@string/hintPassword"
+	   	         android:inputType="textPassword" />
+	   	 </TableRow>
+
+		<TableRow >
+			<View
+			android:layout_width="fill_parent"
+	        android:layout_height="1px"
+	        android:background="#FF909090" 
+	        android:layout_weight="1"/>
+	        </TableRow>
+
+	        <TableRow android:padding="10dp">
+
+	            <TextView
+	                style="@style/LabelText"
+	                android:layout_height="wrap_content"
+	                android:paddingLeft="2dp"
+	                android:text="@string/repswd" />
+
+	            <EditText
+	                android:id="@+id/repassWordET"
+	                android:layout_height="wrap_content"
+	                android:background="@null"
+	                android:hint="@string/hintRequired"
+	                android:inputType="textPassword" />
+	        </TableRow>
+		
+	<TableRow >
+			<View
+			android:layout_width="fill_parent"
+	        android:layout_height="1px"
+	        android:background="#FF909090" 
+	        android:layout_weight="1"/>
+	        </TableRow>
+
+	</TableLayout>
+
+		<ProgressBar
+		    android:id="@+id/progressBarRegister"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:padding="10dp"
+		    android:visibility="gone" />
+	
+	<TextView
+	    android:id="@+id/infoTextview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="15dip"
+	    android:layout_marginLeft="15dip"
+	    android:layout_marginRight="15dip"
+	    android:layout_marginTop="20dip"
+	    android:background="@drawable/info_textview"
+	    android:text="@string/terms_and_policy"
+	    android:textColor="#FFFFFF" />
+
+</LinearLayout>
+</ScrollView>

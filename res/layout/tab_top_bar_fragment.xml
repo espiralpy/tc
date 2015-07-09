@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topNavBar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="top"
+    android:background="@drawable/nav_topbar" >
+
+    <TextView
+        android:id="@+id/topNavTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:text="Trophy Case"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ddd498"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/topNavPrPathButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/pr_path_bton_on"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/topNavRightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="Next"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/topNavCategoryButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="20dp"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/topNavFishing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fishing_off" />
+
+        <ImageView
+            android:id="@+id/topNavHunting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hunting_off" />
+
+        <ImageView
+            android:id="@+id/topNavWildlife"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wildlife_off" />
+
+        <ImageView
+            android:id="@+id/topNavScenic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/scenic_off" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/topNavViewModes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp" >
+
+        <ImageView
+            android:id="@+id/topNavViewModeList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/viewmode_list_on" />
+
+        <ImageView
+            android:id="@+id/topNavViewModeGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/viewmode_grid_off" />
+
+    </LinearLayout>
+
+</RelativeLayout>

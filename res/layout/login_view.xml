@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	>
+        <!-- the top navigation section starts here -->
+		<!-- top navigation ends here -->
+
+		<TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dip"
+			android:layout_marginLeft="10dip"
+	        android:layout_marginRight="10dip"
+		   	android:background="@drawable/backgnd_rounded" 
+            android:weightSum="1">
+           
+         <TableRow android:padding="10dp">
+
+             <TextView
+                 style="@style/LabelText"
+                 android:layout_width="100dp"
+                 android:layout_height="wrap_content"
+                 android:paddingLeft="5dp"
+                 android:text="@string/uname" />
+
+             <EditText
+                 android:id="@+id/username_entry"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:background="@null"
+                 android:ems="10"
+                 android:hint="@string/hintRequired"
+                 android:inputType="textEmailAddress">
+
+                 <requestFocus />
+             </EditText>
+
+         </TableRow>
+			
+			<TableRow >
+			<View
+			android:layout_width="fill_parent"
+	        android:layout_height="1px"
+	        android:background="#FF909090" 
+	        android:layout_weight="1"/>
+	        </TableRow>
+			
+			<TableRow android:padding="10dp">
+
+			    <TextView
+			        style="@style/LabelText"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:paddingLeft="5dp"
+			        android:text="@string/pswd" />
+
+			    <EditText
+			        android:id="@+id/password_entry"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:background="@null"
+			        android:ems="10"
+			        android:hint="@string/hintRequired"
+			        android:inputType="textPassword" />
+
+			</TableRow>
+
+		</TableLayout>
+
+		<ProgressBar
+		    android:id="@+id/progressBarLogin"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:padding="10dp"
+		    android:visibility="gone" />
+		    
+		<TextView
+		    android:id="@+id/needAnAccount"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:layout_marginTop="20dip"
+		    android:text="@string/needAnAccount"
+		    android:textAppearance="@style/label_brown" />
+
+		<TextView
+		    android:id="@+id/infoTextview"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="15dip"
+		    android:layout_marginLeft="15dip"
+		    android:layout_marginRight="15dip"
+		    android:layout_marginTop="20dip"
+		    android:background="@drawable/info_textview"
+		    android:text="@string/terms_and_policy_login"
+		    android:textColor="#FFFFFF" />
+
+</LinearLayout>

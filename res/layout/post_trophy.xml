@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+		android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical"
+        android:id="@+id/selectCatagory"
+       xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/photoPost"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/feed_profilepict_small_default" />
+
+    <TextView
+        android:id="@+id/labDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/photoPost"
+        android:layout_toRightOf="@+id/photoPost"
+        android:layout_marginLeft="10dp"
+        android:text="Date" />
+ 
+      <TextView
+        android:id="@+id/labTime "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/photoPost"
+        android:layout_toRightOf="@+id/photoPost"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Time" />
+
+      <EditText
+          android:id="@+id/txtDate"
+          android:layout_width="150dp"
+          android:layout_height="30dp"
+          android:layout_marginRight="10dp"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/labDate"
+          android:ems="10" >
+
+          <requestFocus />
+      </EditText>
+		
+      <EditText
+          android:id="@+id/txtDate"
+          android:layout_width="150dp"
+          android:layout_height="30dp"
+          android:layout_marginRight="10dp"
+          android:layout_alignParentRight="true"
+          android:layout_alignTop="@+id/labDate"
+          android:ems="10" >
+
+          <requestFocus />
+      </EditText>
+
+      <EditText
+          android:id="@+id/txtTime"
+          android:layout_width="150dp"
+          android:layout_height="30dp"
+          android:layout_alignLeft="@+id/txtDate"
+          android:layout_alignTop="@+id/labTime "
+          android:ems="10" />
+
+       <EditText
+           android:id="@+id/txtTitle"
+           android:layout_width="200dp"
+           android:layout_height="30dp"
+           android:layout_marginRight="10dp"
+           android:layout_alignBottom="@+id/photoPost"
+           android:layout_alignLeft="@+id/labTime "
+           android:ems="10"
+           android:text="Hola"
+           android:textColor="@color/orange"></EditText>
+      
+       <TextView
+        android:id="@+id/labSpecies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+        android:layout_marginTop="115dp"
+        android:text="Species: " />
+
+        <TextView
+        android:id="@+id/labSpecies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:text="Size: " />
+
+        <TextView
+        android:id="@+id/labSpecies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+        android:layout_marginTop="183dp"
+        android:text="Location: " />
+        
+        <EditText
+            android:id="@+id/txtSpecies"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="113dp"
+            android:layout_toRightOf="@+id/labSpecies"
+            android:layout_marginLeft="20dp"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/btnSpecies"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/txtSpecies"
+            android:layout_toRightOf="@+id/txtSpecies"
+            android:text=">" />
+        
+        <EditText
+            android:id="@+id/txtSize"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="145dp"
+            android:layout_toRightOf="@+id/labSpecies"
+            android:layout_marginLeft="20dp"
+            android:ems="10" />
+        
+        <Button
+            android:id="@+id/btnSize"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/txtSize"
+            android:layout_toRightOf="@+id/txtSize"
+            android:text=">" />
+        
+         <EditText
+            android:id="@+id/txtLocation"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="178dp"
+            android:layout_toRightOf="@+id/labSpecies"
+            android:layout_marginLeft="20dp"
+            android:ems="10" />
+        
+        <Button
+            android:id="@+id/btnLocation"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/txtLocation"
+            android:layout_toRightOf="@+id/txtLocation"
+            android:text=">" />
+        
+       
+        
+       
+             <EditText
+            android:id="@+id/txtLatLog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="10dp"
+            android:ems="30" />
+            
+           
+</RelativeLayout>
+
+
+

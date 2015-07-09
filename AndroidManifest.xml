@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.avai.amp.prx"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:allowTaskReparenting="false"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.avai.amp.prx.login.OcnTrophyCaseLaunch"
+            android:enabled="true"
+            android:label="Login" ><intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.avai.amp.prx.login.OcnLoginView"
+            android:label="@string/title_activity_ocn_login_view" >
+        </activity>
+        <activity
+            android:name="com.avai.amp.prx.login.OcnRegistrationView"
+            android:label="@string/title_activity_ocn_registration_view" >
+        </activity>
+        <activity
+            android:name="com.avai.amp.prx.camera.OcnCameraView"
+            android:label="@string/title_activity_ocn_camera_view" >
+        </activity>
+        <activity
+            android:name="com.avai.amp.prx.login.OcnWhyRegister"
+            android:label="@string/title_activity_ocn_why_register_view" >
+        </activity>
+        <activity
+            android:name="com.avai.amp.prx.login.OcnSelectCategoryView"
+            android:label="@string/title_activity_ocn_select_category_view" >
+        </activity>
+        <!-- camara quitar -->
+        <activity
+            android:name="com.avai.amp.prx.camera.PostTrophy"
+            android:label="Labelss" >
+        </activity>
+        <activity android:name="com.avai.amp.prx.nav.OcnMainView" android:label="@string/title_activity_ocn_main_view"></activity>
+    </application>
+
+</manifest>
